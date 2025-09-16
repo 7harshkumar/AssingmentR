@@ -1,0 +1,61 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: 'Segoe UI';
+}
+
+.header {
+    text-align: center;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+}
+
+.filterInput {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    boder-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.filterInput:focus {
+    outline: none;
+    boder-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.contactList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rbga(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.contactItem:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contactName {
+    margin: 0 0 8px 0;
+    color: #1a1a1a;
+    font-size: 1.1rem;
+}
+
+.contactDetail {
+    margin: 4px 0;
+    color: #555;
+    font-size: 0.9rem
+}
